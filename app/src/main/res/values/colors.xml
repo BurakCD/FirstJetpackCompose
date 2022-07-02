@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FF5722</color>
+    <color name="purple_500">#F44336</color>
+    <color name="purple_700">#E91E63</color>
+    <color name="teal_200">#FFEB3B</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="anaRenk">#687D8B</color>
+    <color name="anaRenkKoyu">#485E68</color>
+    <color name="yorumYapRenk">#FF5722</color>
+    <color name="begenRenk">#FF9800</color>
+</resources>

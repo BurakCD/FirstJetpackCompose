@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.burak.ilhamverjc">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/uygulama_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/uygulama_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IlhamVerJC">
+        <activity
+            android:name=".YemekTarifi"
+            android:exported="true"
+            android:label="@string/title_activity_yemek_tarifi"
+            android:theme="@style/Theme.IlhamVerJC" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.IlhamVerJC">
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.IlhamVerJC">
+        </activity>
+    </application>
+
+</manifest>
